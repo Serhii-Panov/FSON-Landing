@@ -1,0 +1,293 @@
+* {
+  font-family: "Montserrat", Helvetica;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.text-highlight {
+  color: #fd9222;
+}
+
+.btn-primary,
+.btn-secondary,
+.hero-banner-title,
+.hero-banner-btn-scroll,
+.benefits-title,
+.white-text,
+.bottom-title,
+.bottom-contacts-title,
+.bottom-contacts-list-item,
+.bottom-contacts-list-item-tel,
+.bottom-contacts-list-item-mail,
+.bottom-nav-list-item-anchor {
+  color: #fff;
+}
+
+.taste-subtitle,
+.recipe-subtitle,
+.header-navigation-logo,
+.recipe-subtitle-list-item-text,
+.review-subtitle-list-item-subtitle,
+.review-btn {
+  color: #111111;
+}
+
+/*navigation section start*/
+.header-navigation-logo {
+  text-transform: uppercase;
+  font-family: "Montserrat-Bold", Helvetica;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: -0.1px;
+  line-height: 20px;
+  white-space: nowrap;
+}
+.header-navigation-logo-italic {
+  font-style: italic;
+}
+
+.header {
+}
+.header-navigation {
+}
+
+.first-logo {
+}
+/*navigation section end*/
+
+button {
+  cursor: pointer;
+}
+
+.btn-primary {
+  font-weight: 600;
+  font-size: 14px;
+  background-color: #fd9222;
+  border-radius: 100px;
+  padding: 14px 40px;
+  border: 0;
+}
+
+.btn-primary:hover {
+  background-color: #fcf1e0;
+  color: #fd9222;
+}
+
+.btn-secondary {
+  font-weight: 600;
+  font-size: 14px;
+  border-radius: 100px;
+  border: 1px solid #fff;
+  background-color: rgba(255, 255, 255, 0);
+  padding: 14px 40px;
+}
+.btn-secondary:hover {
+  border: 1px solid #fd9222;
+  color: #fd9222;
+}
+
+/*hero section start*/
+.hero-banner {
+  background-image: url(/images/hero-banner.jpg);
+  background-size: contain;
+  width: 1136px;
+  height: 600px;
+  border-radius: 30px;
+}
+.hero-banner-title {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -0.03em;
+}
+
+.hero-banner-btn-scroll {
+}
+.hero-banner-btn-scroll-image {
+}
+/*hero section start*/
+
+/* Benefits section start */
+.benefits {
+  background-color: #1e1823;
+}
+.benefits-list {
+}
+.benefits-list-item {
+}
+.benefits-list-item-image {
+}
+.benefits-title {
+  font-weight: 600;
+  font-size: 18px;
+}
+.benefits-list-item-text {
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  color: rgba(255, 255, 255, 0.7);
+}
+/* Benefits section end */
+
+/* Taste section start */
+.taste {
+}
+.taste-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.16;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-align: center;
+}
+.taste-subtitle {
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  text-align: center;
+}
+.taste-list {
+}
+.taste-list-item {
+}
+
+.taste-list-item-milk {
+  background-color: #fd9222;
+}
+.taste-list-item-nuts {
+  background-color: #1e1823;
+}
+.taste-list-item-image {
+}
+
+.taste-list-item-text {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+/* Taste section end */
+
+/* recipe section start */
+.recipe {
+}
+.recipe-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.16;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-align: center;
+}
+.recipe-image {
+}
+.recipe-subtitle {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33;
+}
+.recipe-subtitle-list {
+}
+.recipe-subtitle-list-item {
+}
+.recipe-subtitle-list-item-text {
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+}
+/* recipe section end */
+
+/* review section start */
+.review {
+}
+.review-title {
+}
+.review-list {
+}
+.review-list-item {
+}
+.review-list-item-image {
+}
+.review-subtitle-list-item-subtitle {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33;
+  text-align: center;
+}
+.review-list-item-text {
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: rgba(17, 17, 17, 0.7);
+}
+
+.review-btn {
+  border: 1px solid #fd9222;
+  font-size: 18px;
+}
+/* review section end */
+
+/* footer section start */
+.bottom {
+  background-color: #1e1823;
+}
+.bottom-title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.21;
+  letter-spacing: -0.02em;
+}
+.bottom-contacts {
+}
+.bottom-contacts-title {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28;
+  text-align: center;
+}
+.bottom-contacts-address {
+}
+.bottom-contacts-list {
+}
+.bottom-contacts-list-item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  text-align: center;
+}
+.bottom-contacts-list-item-tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+}
+.bottom-contacts-list-item-mail {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+}
+.bottom-nav {
+}
+.bottom-nav-list {
+}
+.bottom-nav-list-item {
+}
+.bottom-nav-list-item-anchor {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+}
+.bottom-subscribe {
+}
+.bottom-subscribe-email {
+}
+
+/* footer section end */
